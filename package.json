@@ -1,0 +1,22 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "here i'm practicing tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DhruvaPratapSingh/taiwind_landingPage.git"
+  },
+  "author": "Dhruva thakur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DhruvaPratapSingh/taiwind_landingPage/issues"
+  },
+  "homepage": "https://github.com/DhruvaPratapSingh/taiwind_landingPage#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}

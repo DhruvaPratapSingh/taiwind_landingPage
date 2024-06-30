@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind landing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <!-- navbar start -->
+   <nav class="flex justify-between items-center w-full p-4 bg-slate-300 shadow-2xl border-b-2 border-b-slate-400 rounded-b-lg">
+        <a  href="#" class="logo flex items-center gap-2 flex-1">
+            <img class="max-h-12 max-w-12" src="./assets/asset 0.png" alt="logo_img">
+            <span class="text-lg font-medium ">ToDesktop</span>
+        </a>
+    <div class="hidden lg:flex gap-12">
+        <a href="#" class="font-semibold hover:text-blue-600">pricing</a>
+        <a href="#"  class="font-semibold hover:text-blue-600">service</a>
+        <a href="#"  class="font-semibold hover:text-blue-600">about</a>
+        <a href="#" class="font-semibold hover:text-blue-600">contact us</a>
+        <a href="#"  class="font-semibold hover:text-blue-600">FAQ</a>
+    </div>
+        <div class="hidden lg:flex flex-1 gap-2 justify-end">
+            <button class="flex items-center gap-4 border-2 border-black rounded-lg p-1">
+                <img src="./assets/asset 1.svg" alt="">
+                <span class="font-medium">Developers</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+        <button class="p-2 lg:hidden" onclick="handlemenu()">
+            <i class="fa-solid fa-bars text-gray-600"></i>
+        </button>
+       <div id="nav-toggler" class="hidden fixed  inset-0 z-10 p-4 bg-slate-300">
+        <div id="nav-bar" class="flex justify-between">
+            <a href="#" id="brand" class="flex gap-2 items-center">
+                <img class="object-cover max-w-12 max-h-12" src="./assets/asset 0.png" alt="Logo">
+                <span class="text-lg font-medium font-display">ToDesktop</span>
+            </a>
+            <button class="p-2" onclick="handlemenu()">
+                <i class="fa-solid fa-xmark text-gray-600"></i>
+            </button>
+        </div>
+        <div class="mt-6">
+        <a href="#" class="font-medium text-xl hover:text-blue-600 block hover:bg-slate-400 rounded-lg p-3 hover:shadow-4xl ">pricing</a>
+        <a href="#"  class="font-medium text-xl hover:text-blue-600 block hover:bg-slate-400 rounded-lg p-3 hover:shadow-4xl ">service</a>
+        <a href="#" class="font-medium text-xl hover:text-blue-600 block hover:bg-slate-400 hover:shadow-4xl  rounded-lg p-3">about</a>
+        <a href="#" class="font-medium text-xl hover:text-blue-600 block hover:bg-slate-400 rounded-lg p-3 hover:shadow-4xl hover:shadow-teal-400">contact us</a>
+        <a href="#"  class="font-medium text-xl hover:text-blue-600 block hover:bg-slate-400 rounded-lg p-3 hover:shadow-4xl ">FAQ</a>
+        </div>
+    </div>
+   </nav>
+   <script src="./script.js"></script>
+</body>3
+</html>
